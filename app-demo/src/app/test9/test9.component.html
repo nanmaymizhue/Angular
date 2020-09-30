@@ -1,0 +1,10 @@
+<p>test9 component works!</p>
+<h3 class="text-success">Codevoluton</h3>
+<h3 [class]="successClass">Codevolution</h3>
+<h3 class="text-special" [class]="successClass">Codevolution</h3>
+<h3 [class.text-danger]=hasError>Codevolution</h3>
+<h3 [ngClass]="messageClasses">Codevolution</h3>
+
+<h4 [style.color]="hasError ? 'red':'green'">Style Binding</h4>
+<h4 [style.color]="highlightColor">Style Binding 2</h4>
+<h4 [ngStyle]="titleStyles">Style Bindig 3</h4>
